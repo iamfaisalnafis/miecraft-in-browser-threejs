@@ -1,8 +1,10 @@
-import dirtImg from './dirt.png';
-import grassImg from './grass.png';
-import glassImg from './glass.png';
-import logImg from './log.png';
-import woodImg from './wood.png';
+import dirtImg from '../images/dirt.png';
+import grassImg from '../images/grass.png';
+import glassImg from '../images/glass.png';
+import logImg from '../images/log.png';
+import woodImg from '../images/wood.png';
+
+
 
 export {
 	dirtImg,
