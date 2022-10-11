@@ -43,4 +43,7 @@ export const useStore = create((set) => ({
             cubes: []
         }))
     },
+    showControls: () => {
+        document.getElementById('showControls absolute').style.display = 'flex';
+    },
 }))

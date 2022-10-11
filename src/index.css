@@ -66,3 +66,39 @@ body {
   left: 10px;
 }
 
+.controls {
+  top: 0px;
+  right: 20px;
+  border-radius: 5px;
+}
+
+.showControls {
+  position: absolute;
+  white-space: nowrap;
+  text-align: center;
+  top: 0px;
+  right: 10px; 
+}
+
+.hide {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  width: auto;
+  visibility: hidden;
+}
+
+.tooltip:hover + .hide {
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  word-wrap: break-word;
+  width: 230px;
+  height: 280px;
+  top: 50px;
+  right: 0px;
+  font-size: 18px;
+  visibility: visible;
+}
+
+
